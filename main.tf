@@ -81,7 +81,7 @@ locals {
     dnf -y update
     dnf -y install git nodejs
     cd /opt
-    git clone https://github.com/YOUR_GITHUB_USERNAME/aws-node-terraform.git app
+    git clone https://github.com/joshiisaurabh/aws-node-terraform.git app
     cd app/node-app
     npm install
     nohup npm start &
